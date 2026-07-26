@@ -21,7 +21,6 @@ A Machine Learning-based Air Quality Prediction and Historical AQI Analysis Syst
 # 🧠 Key Concepts Used
 
 - Data Preprocessing
-- Exploratory Data Analysis (EDA)
 - Feature Engineering
 - Supervised Machine Learning
 - Regression Analysis
@@ -35,7 +34,7 @@ A Machine Learning-based Air Quality Prediction and Historical AQI Analysis Syst
 
 # 🛠️ Tools & Technologies
 
-**Language:** Python 3.14
+**Language:** Python
 
 **Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, Joblib, Plotly
 
@@ -65,22 +64,26 @@ A Machine Learning-based Air Quality Prediction and Historical AQI Analysis Syst
 AirSense-AI/
 │
 ├── .streamlit/
-│   └── config.toml              # Streamlit theme configuration
+│   └── config.toml                    # Streamlit theme configuration
 │
 ├── data/
-│   └── cleaned_air_quality.csv  # Historical AQI dataset
+│   └── cleaned_air_quality.csv        # Historical AQI dataset
 │
 ├── models/
-│   └── aqi_model.pkl            # Trained Random Forest model
+│   └── aqi_model.pkl                  # Trained Random Forest model
+│
+├── reports/
+│   └── term_project3_report.pdf       # Project report
 │
 ├── src/
-│   ├── app.py                   # Streamlit application
-│   ├── preprocess.py            # Data preprocessing
-│   └── train_model.py           # Model training and evaluation
+│   ├── app.py                         # Streamlit application
+│   ├── preprocess.py                  # Data preprocessing
+│   └── train_model.py                 # Model training and evaluation
 │
-├── requirements.txt             # Project dependencies
-├── .gitignore                   # Git ignored files
-└── README.md                    # Project documentation
+├── .gitignore                         # Git ignored files
+├── LICENSE                            # MIT License
+├── README.md                          # Project documentation
+└── requirements.txt                   # Project dependencies
 ```
 
 ---
@@ -90,7 +93,7 @@ AirSense-AI/
 1. Clone this repository.
 
 ```bash
-git clone https://github.com/<your-username>/AirSense-AI.git
+git clone https://github.com/an1rudhks/AirSense-AI.git
 ```
 
 2. Navigate to the project directory.
